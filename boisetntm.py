@@ -192,6 +192,13 @@ def GameRules(number):
         st.text("📣TABLE RONDE:On fait un tour de table. A la fin, chaque joueur pointe du doigt la personne qui a sorti la meilleure anecdote.\nA DIRE APRES !! Cette dernière bois le nombre de gorgées que de vote qu'elle a reçu\n(T'as crût que t'allé t'en sortir gagnant fdp ? Ce jeu s'appelle 'Bois et NTM' pour rappel)")
         text = "L'endroit le plus insolite où tu as eu un rapport avec une autre personne (fellation, cunni, sexe, tripotage(dsl je trouve pas le terme exact),..."
     
+    elif number == 56:
+        special_rule ="(Choisis une autre personne, répondez en même temps à la question si les deux répondent la même chose les 2 bois, si un des deux trichent ou est hors-temps il boit tout seul)\n"
+        text = "Est-ce que tu as déjà volé qqchose ?"
+
+    elif number == 57:
+        text = "Sale Toxico De Merde : Bois autant de gorgées que de drogue/s tu as pris dans ta vie (max 8 gorgées). De plus, si le maître du jeu est un enculé ou une salope, autorise la personne tombée sur ce gage, que chaque personne ayant consommée une drogue de la personne tombée sur ce gage boivent une gorgée. Libre au toxico de choisir la drogue qu'il/elle souhaite. (En gros il/elle a conso du cannabis il/elle dit 'Tout ceux ayant consommé du cannabis, boivent !') NTM pour rappel. Et ça vaut pour tout le monde.  Bande de droguée va !!"
+    
     if special_rule != "":
         st.markdown("Special Rule 🔥🔥🔥"+ special_rule)
         
