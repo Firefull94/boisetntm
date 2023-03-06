@@ -206,6 +206,6 @@ def GameRules(number):
 
 
 if start:
-    number = random.randint(56,57)
+    number = random.randint(1,57)
     st.write("Number = "+str(number))
     GameRules(number)
